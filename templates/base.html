@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>
+NASA Rovers Photo Access
+</title>
+<style type="text/css">
+html,
+body {
+height: 100%;
+}
+body {
+background-image: url("/static/images/rover.png");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+</style>
+</head>
+<body>
+<div><b>Welcome to Window2Mars! </b><a href="/api/v1/nasa_mars_photos">Visit Home Page</a> <a href="/api/v1/login">Login</a></div>
+{% block content %}{% endblock %}
+</body>
+</html>
