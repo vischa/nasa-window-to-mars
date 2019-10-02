@@ -2,7 +2,7 @@
 
 ## What is the application about?
 
-This repository is a light weight REST API application based on Flask framework for accessing Mars POV images from NASA's rovers. Corpus is image data from Mars Rovers (Curiosity, Spirit and Opportunity) through nine cameras on-board cameras.
+This repository is a light weight REST API application based on Flask framework for accessing Mars POV images from NASA's rovers. Corpus is image data from Mars Rovers (Curiosity, Spirit and Opportunity) through nine on-board cameras.
 
 
 ## What are the dependencies?
@@ -55,5 +55,4 @@ Once everything is set, launch the application and head to localhost.
 
 ![Rover Image](https://user-images.githubusercontent.com/53545889/66077580-37447380-e52e-11e9-8d66-c2a046a55a9c.png)
 
-![Rover Image](https://user-images.githubusercontent.com/53545889/66077603-45928f80-e52e-11e9-9a05-f6f22d3b1bd2.png)
 
