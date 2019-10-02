@@ -7,13 +7,13 @@ This repository is a light weight REST API application based on Flask framework 
 
 ## What are the dependencies?
 
-1. In order to access images accessbile through NASA's Open APIs gateway, fetch a developer key from https://api.nasa.gov. Once you have the key, export it as an environmental variable named "NASA_API_KEY" on the system you are installing this application on.
+In order to access images accessbile through NASA's Open APIs gateway, fetch a developer key from https://api.nasa.gov. Once you have the key, export it as an environmental variable named "NASA_API_KEY" on the system you are installing this application on.
 
 $export NASA_API_KEY=<your_api_key>
 
 This key will be used by the configuration script that will fire secondary API calls to fetch the image.
 
-2. Install python libraries necessary for the Flask framework to function. These are provided in requirements.txt and include:
+Install python libraries necessary for the Flask framework to function. These are provided in requirements.txt and include:
 
 alembic==1.1.0
 app==0.0.1
@@ -54,5 +54,9 @@ Once everything is set, launch the application and head to localhost.
 ![Rover Image](https://user-images.githubusercontent.com/53545889/66077569-33185600-e52e-11e9-925a-4b81b0b43e1f.png)
 
 ![Rover Image](https://user-images.githubusercontent.com/53545889/66077580-37447380-e52e-11e9-8d66-c2a046a55a9c.png)
+
+![Rover Image](https://user-images.githubusercontent.com/53545889/66077958-10d30800-e52f-11e9-8c56-a3d2d538c131.png)
+
+![Rover Image](https://user-images.githubusercontent.com/53545889/66077973-1892ac80-e52f-11e9-9d8e-50016c83694b.png)
 
 
