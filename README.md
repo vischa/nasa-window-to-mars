@@ -15,7 +15,7 @@ This key will be used by the configuration script that will fire secondary API c
 
 Install python libraries necessary for the Flask framework to function. These are provided in requirements.txt.
 
-Once everything is set, launch the application and head to localhost.
+Once everything is set, launch the application by running app.py and head to localhost on your browser.
 
 
 ## How does it feel and look?
