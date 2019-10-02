@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+        <h1><b>Mars Photos Repository Access</b> <br>NASA Open API initiative (code.nasa.gov)</h1>
+        <form action="" method="post" novalidate>
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.rover.label }}<br>
+            {{ form.rover(size=32) }}
+        </p>
+        <p>
+            {{ form.sol.label }}<br>
+            {{ form.sol(size=32) }}
+        </p>
+
+        <p>
+            {{ form.camera.label }}<br>
+            {{ form.camera(size=32) }}
+        </p>
+
+
+        <p>{{ form.submit() }}</p>
+
+        </form>
+
+{% endblock %}
