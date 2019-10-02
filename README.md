@@ -13,30 +13,7 @@ $export NASA_API_KEY=<your_api_key>
 
 This key will be used by the configuration script that will fire secondary API calls to fetch the image.
 
-Install python libraries necessary for the Flask framework to function. These are provided in requirements.txt and include:
-
-alembic==1.1.0
-app==0.0.1
-certifi==2019.9.11
-chardet==3.0.4
-Click==7.0
-Flask==1.1.1
-Flask-Migrate==2.5.2
-Flask-SQLAlchemy==2.4.0
-Flask-WTF==0.14.2
-idna==2.8
-itsdangerous==1.1.0
-Jinja2==2.10.1
-Mako==1.1.0
-MarkupSafe==1.1.1
-python-dateutil==2.8.0
-python-editor==1.0.4
-requests==2.22.0
-six==1.12.0
-SQLAlchemy==1.3.8
-urllib3==1.25.6
-Werkzeug==0.15.5
-WTForms==2.2.1
+Install python libraries necessary for the Flask framework to function. These are provided in requirements.txt.
 
 Once everything is set, launch the application and head to localhost.
 
